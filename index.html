@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Superover</title>
+</head>
+<body>
+ <div class="container">
+     <div class="row">
+         <div class="col">
+             <img src="images\CSK.png" class="pic" alt="CSK" width="250px" height="250px">
+             <P class="name" id="team1name">CSK</P>
+             <div class="row runs" id="team1runs">
+                 <div>-</div>
+                 <div>-</div>
+                 <div>-</div>
+                 <div>-</div>
+                 <div>-</div>
+                 <div>-</div>
+             </div>
+         </div>
+         <div>
+             <div class="col">
+                 <div class="row score">
+                     <div id="team1score">0</div>
+                     <div>-</div>
+                     <div id="team2score">0</div>
+                 </div>
+             </div>
+         </div>
+         <div class="col">
+             <img src="images\MI.png" class="pic" alt="MI" width="250px" height="250px">
+             <p class="name" id="team2name">MI</p>
+             <div class="row runs" id="team2runs">
+                <div>-</div>
+                <div>-</div>
+                <div>-</div>
+                <div>-</div>
+                <div>-</div>
+                <div>-</div>
+            </div>
+         </div>
+     </div>
+     <div class="row">
+        <button id="strike" onclick="handlestrike()">STRIKE</button>
+    </div>
+    <div id="results"></div>
+ </div>
+ <script src="design.js"></script>    
+</body>
+</html>
